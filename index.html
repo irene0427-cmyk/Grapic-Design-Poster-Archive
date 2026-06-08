@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Poster Index — Graphic Design Archive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a href="#top" class="logo">POSTER INDEX</a>
+    <nav>
+      <a href="#archive">Archive</a>
+      <a href="#upload">Upload</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-meta">
+        <span>Graphic Design Archive</span>
+        <span>2024—2026</span>
+      </div>
+      <h1>POSTER<br>INDEX</h1>
+      <div class="hero-bottom">
+        <p>A visual archive of poster experiments, typography studies, and graphic design works created in class.</p>
+        <span class="issue">VOL. 01</span>
+      </div>
+    </section>
+
+    <section class="featured">
+      <article class="feature-card large">
+        <div class="poster-art poster-a">
+          <span>MORPHO</span>
+          <strong>BUTTERFLY</strong>
+        </div>
+        <div class="caption">
+          <span>001</span>
+          <h2>Morpho Butterfly Poster</h2>
+          <p>Poster Design · 2026</p>
+        </div>
+      </article>
+      <article class="feature-card small offset">
+        <div class="poster-art poster-b">
+          <span>TYPE</span>
+          <strong>FORM</strong>
+        </div>
+        <div class="caption">
+          <span>002</span>
+          <h2>Typography Study</h2>
+          <p>Typography · 2025</p>
+        </div>
+      </article>
+    </section>
+
+    <section id="archive" class="archive-section">
+      <div class="section-title">
+        <span>Selected Works</span>
+        <h2>Archive</h2>
+      </div>
+
+      <div class="filter-row">
+        <button class="active">All</button>
+        <button>Poster</button>
+        <button>Typography</button>
+        <button>Editorial</button>
+        <button>Experimental</button>
+      </div>
+
+      <div class="poster-grid">
+        <article class="work span-5">
+          <div class="work-index">003</div>
+          <div class="poster-art poster-c"><span>RESILIENCE</span><strong>RECOVER</strong></div>
+          <div class="work-info"><h3>Resilience</h3><p>Brand Poster · 2025</p></div>
+        </article>
+        <article class="work span-3 top-gap">
+          <div class="work-index">004</div>
+          <div class="poster-art poster-d"><span>JAWS</span><strong>1975</strong></div>
+          <div class="work-info"><h3>Jaws Mimesis</h3><p>Visual Experiment · 2026</p></div>
+        </article>
+        <article class="work span-4">
+          <div class="work-index">005</div>
+          <div class="poster-art poster-e"><span>LAYOUT</span><strong>GRID</strong></div>
+          <div class="work-info"><h3>Grid Composition</h3><p>Editorial Layout · 2025</p></div>
+        </article>
+        <article class="work span-4">
+          <div class="work-index">006</div>
+          <div class="poster-art poster-f"><span>NOTION</span><strong>WORKFLOW</strong></div>
+          <div class="work-info"><h3>Notion Motion Key Visual</h3><p>Motion Graphic · 2026</p></div>
+        </article>
+        <article class="work span-5 top-gap">
+          <div class="work-index">007</div>
+          <div class="poster-art poster-g"><span>HANGOUT</span><strong>POHANG</strong></div>
+          <div class="work-info"><h3>HAN(G)OUT</h3><p>Editorial Curation · 2026</p></div>
+        </article>
+        <article class="work span-3">
+          <div class="work-index">008</div>
+          <div class="poster-art poster-h"><span>FUTURA</span><strong>190×190</strong></div>
+          <div class="work-info"><h3>Type Dictionary</h3><p>Typography · 2025</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="upload" class="upload-section">
+      <div class="upload-heading">
+        <span>Submit to Archive</span>
+        <h2>Add Work</h2>
+      </div>
+      <form class="upload-form">
+        <label class="file-box">
+          <span>Drop poster image here</span>
+          <small>PNG, JPG, PDF</small>
+          <input type="file" />
+        </label>
+        <div class="form-grid">
+          <label>Title<input type="text" placeholder="Morpho Butterfly Poster"></label>
+          <label>Class / Project<input type="text" placeholder="Graphic Design"></label>
+          <label>Year<input type="text" placeholder="2026"></label>
+          <label>Category<input type="text" placeholder="Poster Design"></label>
+          <label class="wide">Tools Used<input type="text" placeholder="Illustrator, Photoshop"></label>
+          <label class="wide">Description<textarea placeholder="Write a short archive note about this work."></textarea></label>
+        </div>
+        <button type="button">Add to Archive</button>
+      </form>
+    </section>
+
+    <section id="about" class="about-section">
+      <p>POSTER INDEX is a personal graphic design archive for collecting class works, poster studies, typography experiments, and visual systems.</p>
+    </section>
+  </main>
+</body>
+</html>
